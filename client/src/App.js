@@ -7,6 +7,7 @@ import Hero from "./Components/UI/Hero";
 import Service from "./Components/UI/Services";
 import Portfolio from "./Components/UI/Portfolio";
 import { useEffect } from "react";
+import Contact from "./Components/UI/Contact";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <Service />
         <Portfolio />
+        <Contact />
       </main>
       <Footer />
     </>

@@ -121,7 +121,7 @@ const Hero = () => {
             <div className="md:basis-1/5 flex  justify-between text-center mt-10 flex-wrap gap-3 md:mt-0  md:flex-col md:justify-end md:text-end">
               <div className="mb-10">
                 <h2 className="text-headingColor font-[700] text-[32px]">
-                  <CountUp start={0} end={6} duration={2} suffix="+" />
+                  <CountUp start={0} end={1} duration={2} suffix="+" />
                 </h2>
                 <h4 className="text-headingColor font-[600] text-[18px]">
                   Years of experience
@@ -139,7 +139,7 @@ const Hero = () => {
 
               <div className="mb-10">
                 <h2 className="text-headingColor font-[700] text-[32px]">
-                  <CountUp start={0} end={150} duration={2} suffix="+" />
+                  <CountUp start={0} end={0} duration={2} suffix="+" />
                 </h2>
                 <h4 className="text-headingColor font-[600] text-[18px]">
                   Happy Clients
@@ -148,7 +148,7 @@ const Hero = () => {
 
               <div className="mb-10">
                 <h2 className="text-headingColor font-[700] text-[32px]">
-                  <CountUp start={0} end={249} duration={2} suffix="+" />
+                  <CountUp start={0} end={15} duration={2} suffix="+" />
                 </h2>
                 <h4 className="text-headingColor font-[600] text-[18px]">
                   Project Completed
