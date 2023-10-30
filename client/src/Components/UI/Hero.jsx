@@ -17,7 +17,7 @@ const Hero = () => {
                 data-aos-duration="1500"
                 className="text-headingColor font-[600] text-[16px]"
               >
-                Hello Welcome
+                Welcome
               </h5>
               <h1
                 data-aos="fade-up"

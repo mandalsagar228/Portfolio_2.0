@@ -5,55 +5,61 @@ import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
+import docs from "../images/docs.png";
+import auth from "../images/auth.png";
+import gmail from "../images/gmail.png";
+import todo from "../images/todo.png";
+import pdf from "../images/pdf.png";
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: portfolioImg01,
+    imgUrl: gmail,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Gmail clone",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a Gmail actual clone made using React, MUI, Nodes js, MongoDB,Nodemailer",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB", "Nodemailer"],
     siteUrl: "#",
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
+    imgUrl: todo,
     category: "Ux",
-    title: "Video Conference Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    title: "Todo App",
+    description: "This is a Todo App made using React, MUI, Node js, MongoDB",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://todos-app-net.netlify.app/",
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
+    imgUrl: auth,
     category: "Ux",
-    title: "Multimedia Sharing Website",
+    title: "Complete Authentication System",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "This is a Complete Authentication System made using React, MUI, Node js, MongoDB",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://completeauthsystem.netlify.app/",
   },
   {
     id: "04",
-    imgUrl: portfolioImg05,
+    imgUrl: pdf,
     category: "Web Design",
-    title: "Landing Page",
+    title: "PDF Hosting Platform",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "This is a Pdf Hosting Platform made using React, MUI, Node js, MongoDB ",
+
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://hostyourpdf.netlify.app/",
   },
   {
     id: "05",
-    imgUrl: portfolioImg03,
+    imgUrl: docs,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Google Docs Clone",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "This is a Pdf Hosting Platform made using React, MUI, Node js, MongoDB,Socket.IO ",
+
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
